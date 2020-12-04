@@ -1,0 +1,11 @@
+{
+  "name": "fundamentosnodejs",
+  "version": "1.0.0",
+  "description": "Este proyecto corresponde a las clases del curso de fundamentos de Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "luis martinez",
+  "license": "ISC"
+}
