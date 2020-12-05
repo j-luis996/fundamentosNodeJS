@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "VEntorno": "nodemon ./src/entorno.js",
-    "callback": "nodemon ./src/async/callback.js"
+    "callback": "nodemon ./src/async/callback.js",
+    "callbackHell": "nodemon ./src/async/callbackHell.js"
   },
   "author": "luis martinez",
   "license": "ISC"
