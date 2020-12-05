@@ -4,7 +4,8 @@
   "description": "Este proyecto corresponde a las clases del curso de fundamentos de Nodejs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "VEntorno": "nodemon ./src/entorno.js",
+    "callback": "nodemon ./src/async/callback.js"
   },
   "author": "luis martinez",
   "license": "ISC"
