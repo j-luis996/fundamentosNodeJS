@@ -7,7 +7,10 @@
     "VEntorno": "nodemon ./src/entorno.js",
     "callback": "nodemon ./src/async/callback.js",
     "callbackHell": "nodemon ./src/async/callbackHell.js",
-    "promise": "nodemon ./src/async/promises.js"
+    "promise": "nodemon ./src/async/promises.js",
+    "async": "nodemon ./src/async/asyncAwait.js",
+    "global": "nodemon ./src/modulos/globales.js",
+    "file": "nodemon ./src/modulos/file.js"
   },
   "author": "luis martinez",
   "license": "ISC"
