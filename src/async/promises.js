@@ -34,8 +34,7 @@ const conversacion = (nombre, repeticion) =>{
                         conversacion(nombre, --repeticion)
                               .then(hablar(nombre))
                               .catch(error => {
-                                    console.error('ah habido un error')
-                                    console.error(error)
+                                    funcError(error)
                               })
                   }, TIME)
             }else{
@@ -45,18 +44,19 @@ const conversacion = (nombre, repeticion) =>{
                               console.log("terminado el proceso")
                         })
                         .catch(error => {
-                              console.error('ah habido un error')
-                              console.error(error)
+                              funcError(error)
                         })
                   },TIME)
             }
       })
 }
-
+const funcError = error => {
+      console.error('ah habido un error')
+      console.error(error)
+}
 console.log("inciando el proceso...")
 hola(nombre)
       .then(conversacion(nombre,repeticiones))
       .catch(error => {
-            console.error('ah habido un error')
-            console.error(error)
+            funcError(error)
       })
