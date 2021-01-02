@@ -27,11 +27,11 @@ const adios = async (nomb) => {
             },TIME)
       })
 }
-async function main(){
+const main = async () => {
       await hola(nombre)
       await hablar(nombre)
       await hablar(nombre)
-      hablar(nombre)
+      await hablar(nombre)
       await adios(nombre)
       console.log('Termina el proceso...')
 }
