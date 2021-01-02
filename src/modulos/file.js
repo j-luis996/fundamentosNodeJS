@@ -1,5 +1,6 @@
 const fs2=require('fs').promises
 const fs=require('fs')
+//este es un ejemplo con promesa
 const read = async () => {
       const file = await fs2.readFile(__dirname+'/archivo.txt',{encoding: 'utf-8'})
       console.log(file)
