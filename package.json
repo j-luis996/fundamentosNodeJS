@@ -12,7 +12,8 @@
     "global": "nodemon ./src/modulos/globales.js",
     "file": "nodemon ./src/modulos/file.js",
     "file2": "nodemon ./src/modulos/file2.js",
-    "consola": "nodemon ./src/modulos/consola.js"
+    "consola": "nodemon ./src/modulos/consola.js",
+    "error": "nodemon ./src/modulos/errores.js"
   },
   "author": "luis martinez",
   "license": "ISC"
