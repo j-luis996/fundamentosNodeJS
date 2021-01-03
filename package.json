@@ -10,7 +10,8 @@
     "promise": "nodemon ./src/async/promises.js",
     "async": "nodemon ./src/async/asyncAwait.js",
     "global": "nodemon ./src/modulos/globales.js",
-    "file": "nodemon ./src/modulos/file.js"
+    "file": "nodemon ./src/modulos/file.js",
+    "file2": "nodemon ./src/modulos/file2.js"
   },
   "author": "luis martinez",
   "license": "ISC"

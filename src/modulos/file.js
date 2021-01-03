@@ -33,6 +33,6 @@ function borrar(ruta,cb){
       })
 }
 // read()
-leer(__dirname + '/archivo1.txt')
-// escribir(__dirname+'/archivo.txt','soy un archivo nuevo  dssdvs', console.log)
-// borrar(__dirname+'/archivo.txt',console.log)
+escribir(__dirname+'/archivo.txt','soy un archivo nuevo  dssdvs', console.log)
+leer(__dirname + '/archivo.txt')
+borrar(__dirname+'/archivo.txt',console.log)
