@@ -11,7 +11,8 @@
     "async": "nodemon ./src/async/asyncAwait.js",
     "global": "nodemon ./src/modulos/globales.js",
     "file": "nodemon ./src/modulos/file.js",
-    "file2": "nodemon ./src/modulos/file2.js"
+    "file2": "nodemon ./src/modulos/file2.js",
+    "consola": "nodemon ./src/modulos/consola.js"
   },
   "author": "luis martinez",
   "license": "ISC"
