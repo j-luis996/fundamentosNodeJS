@@ -1,0 +1,24 @@
+const os = require('os');
+
+console.log(os.arch());
+console.log(os.platform());
+
+console.log(os.cpus());//os.cpus().length para ver el numero de cpus
+
+console.log(os.constants)//muestra las señales del sistema
+
+const SIZE= 1024
+function kb(bytes){return bytes / SIZE}
+function mb(bytes){return kb(bytes) / SIZE}
+function gb(bytes){return mb(bytes) / SIZE}
+console.log(os.freemem());
+console.log(gb(os.freemem()));
+console.log(gb(os.totalmem()));
+
+console.log(os.homedir())
+
+console.log(os.tmpdir())
+
+console.log(os.hostname())
+
+console.log(os.networkInterfaces())
