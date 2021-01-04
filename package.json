@@ -14,7 +14,8 @@
     "file2": "nodemon ./src/modulos/file2.js",
     "consola": "nodemon ./src/modulos/consola.js",
     "error": "nodemon ./src/modulos/errores.js",
-    "hijo": "nodemon ./src/modulos/procesoHijo.js"
+    "hijo": "nodemon ./src/modulos/procesoHijo.js",
+    "http": "nodemon ./src/modulos/http.js"
   },
   "author": "luis martinez",
   "license": "ISC"
