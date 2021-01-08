@@ -16,7 +16,8 @@
     "error": "nodemon ./src/modulos/errores.js",
     "hijo": "nodemon ./src/modulos/procesoHijo.js",
     "http": "nodemon ./src/modulos/http.js",
-    "os": "nodemon ./src/modulos/OS.js"
+    "os": "nodemon ./src/modulos/OS.js",
+    "process": "nodemon ./src/modulos/process.js"
   },
   "author": "luis martinez",
   "license": "ISC"
