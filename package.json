@@ -19,7 +19,8 @@
     "http": "nodemon ./src/modulos/http.js",
     "os": "nodemon ./src/modulos/OS.js",
     "process": "nodemon ./src/modulos/process.js",
-    "es6": "nodemon ./src/modulos/es6/index.js"
+    "es6": "nodemon ./src/modulos/es6/index.js",
+    "buffer": "nodemon ./src/memoria/buffer.js"
   },
   "author": "luis martinez",
   "license": "ISC"
