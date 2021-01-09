@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Este proyecto corresponde a las clases del curso de fundamentos de Nodejs",
   "main": "index.js",
-  "type": "module",
+  
   "scripts": {
     "VEntorno": "nodemon ./src/entorno.js",
     "callback": "nodemon ./src/async/callback.js",
@@ -20,7 +20,8 @@
     "os": "nodemon ./src/modulos/OS.js",
     "process": "nodemon ./src/modulos/process.js",
     "es6": "nodemon ./src/modulos/es6/index.js",
-    "buffer": "nodemon ./src/memoria/buffer.js"
+    "buffer": "nodemon ./src/memoria/buffer.js",
+    "stream": "nodemon ./src/memoria/streams.js"
   },
   "author": "luis martinez",
   "license": "ISC"

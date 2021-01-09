@@ -1,0 +1,9 @@
+Soy
+un
+archivo
+que
+será
+leido
+por
+un
+stream
